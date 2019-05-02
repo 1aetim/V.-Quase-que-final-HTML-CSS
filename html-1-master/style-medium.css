@@ -1,0 +1,168 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One');
+@import url('https://fonts.googleapis.com/css?family=Marvel');
+
+body {
+	margin:0;
+	padding:0;
+	background-color:#161616
+}
+h1 {
+	/*font-family: Century Gothic, sans-serif;*/
+	font-family: Comic Sans MS, sans-serif;
+	font-size:18pt;
+	margin:0% 0% 0% 4%;
+	padding-top:20px;
+	color: white;
+}
+.titulo {
+	font-family: Comic Sans MS, sans-serif;
+	font-size:18pt;
+	padding-top:40px;
+	margin:0% 0% 0% 4%;
+	color: white;
+}
+#cabecalho {
+	width:100%;
+	height:100px;
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+	background-color:#ed1d24;
+}
+#cabecalho img {
+	width:149px;
+	height:60px;
+	position:absolute;
+	margin:20px 0px 0px 30px;
+}
+#cabecalho ul {
+	position:absolute;
+	display:block;
+	left:38%;
+}
+#cabecalho li {
+	list-style:none;
+	display:inline-block;
+	font-family:'Fjalla One';
+	font-size:18pt;
+	color:white;
+	margin-right:15px;	
+	border-bottom:2px solid white;
+	height:50px;
+}
+#cabecalho p {
+	margin:0;
+	transform: translateY(20px);
+	transition: transform 0.3s;
+}
+#cabecalho a {
+	text-decoration:none;
+	color:white;
+}
+#cabecalho li:hover p{
+	transform: translateY(10px);
+}	
+#cabecalho li:hover a{
+	padding-bottom:9px;
+}
+#corpo {
+	width:80%;
+	height:1690px;
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+	margin:50px auto 0px auto;
+	background-color:#232323;
+}
+#corpo p {
+	font-family: Consolas, sans-serif;
+	font-size:16pt;
+	text-align:justify;
+	margin:0px 50px 50px 50px;
+	text-indent:1.25cm;
+}
+#persons {
+	width:80%;
+	height:1900px;
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+	margin:50px auto 0px auto;
+	background-color:#232323;
+}
+#persons img {
+	width:200px;
+	height:105px;
+	margin:10px;
+	border: 1px solid white;	
+	box-shadow: 1px 1px 5px black;
+	border-radius: 10px;
+	transition: opacity 0.3s
+}
+#persons img:hover {
+	opacity:0.5
+}
+#persons td {
+	font-family: Consolas, sans-serif;
+	font-size:12pt;
+	color:white;
+	text-align:center;
+}
+#filmes {
+	width:80%;
+	height:4450px;
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+	margin:50px auto 0px auto;
+	background-color:#232323;
+}
+#filmes figure {
+	position:relative;
+	width:180px;
+	height:267px;
+	border: 1px solid white;	
+	box-shadow: 1px 1px 4px black;
+	float:left;
+	margin-right:0;
+	margin-left:7%;
+}
+#filmes figure img {
+	width:100%;
+	height:100%;
+	transition: opacity 0.5s;
+}
+#filmes figure p.fig {
+	position: absolute;
+	top:0;
+	width:100%;
+	height:100%;
+	display:none;
+	transition: opacity 0.6s; 
+	text-align:center;
+	font-family:Consolas, sans-serif;
+	font-size:75%;
+	text-indent:0;
+	margin:5px 0px 0px 0px;
+	padding:5px;
+	box-sizing: border-box;
+	color:white;
+}
+#filmes span {
+	font-weight:bold;
+	color:red;
+}
+#filmes figure:hover p.fig {
+	display:inline-block;;
+}
+#filmes figure:hover img {
+	opacity:0.2;
+}
+#rodape {
+	width:100%;
+	height:80px;
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+	background-color:#ed1d24;
+	position:relative;
+}
+#pr1 {
+	text-align:center;
+	position:absolute;
+	width:100%;
+	font-family:Consolas;
+	top:5px;
+	color:white;
+}
